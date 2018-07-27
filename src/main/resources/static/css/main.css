@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Karma');
+body{
+	/*background-image: url("../img/hd-wallpapers-computer-16.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+   
+   background-attachment: fixed;*/
+}
+section{
+	min-height:500px;
+}
+section h1{
+	color:#a40000;
+	font-size:3.5em;
+	font-weight:bold;
+	font-family:Karma,Arial;	
+}
+
+section h2{
+	color:#124578;
+	font-size:1.7em;
+	margin-top:44px;
+	margin-bottom:44px;
+	font-weight:bold;
+}
+ .form-group input.form-control{
+	border-radius:0px;
+	
+}
+nav.navbar-default{
+	background-color:rgba(12,12,12,0.9);
+	border-color:black;
+	border-radius:0px 0px 0px 0px;
+	
+}
+
+
+nav.navbar-default .navbar-brand a img{
+	display:none;
+	
+}
+nav.navbar-default .navbar-nav li a{
+	color:white;
+}
+
+nav.navbar-default .navbar-nav li.dropdown ul.dropdown-menu li a{
+	color:black;
+	
+}
+nav.navbar-default .navbar-nav li:hover{
+	background-color:white;
+	color:red;
+}
+
+
+/***** END NAVBAR *****/
+/*******BEGIN AJOUt FOURNISSEUR******/
+
+#ajout-fournisseur h1{
+	font-style:Karma;
+	margin-bottom:50px;
+}
+
+footer{
+	background-color:rgba(12,12,12,0.9);
+	border-color:black;
+	border-radius:0px 0px 0px 0px;
+	margin-top:50px;
+	min-height:50px;
+	padding-top:20px;
+	color:white;
+}
+footer a{
+	color:#ef2929;
+	
+}
+
+/**Dialog Contaienr**/
+#my-dialog-container{
+	z-index:10;
+	background:rgba(0,0,0,0.5);
+	display:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:1200px;
+}
+
+#my-dialog-container #window-container{
+	display:inline-block;
+	min-width: 400px;
+	min-height:250px;
+	background-color:white;
+	position:absolute;
+	top:200px;
+	left:400px;
+	
+}
+
+#my-dialog-container #window-container #closing-div{
+	width:100%;
+	background:black;
+	
+	
+}
+#my-dialog-container #window-container #closing-div p{
+	text-align:right;
+}
+#my-dialog-container #window-container #closing-div button{
+	background:black;
+	color:white;
+	border-radius:0px;
+	border:black;
+	padding:0px;
+	font-size:1.5em;
+	padding-left:5px;
+	padding-right:5px;
+}
+#my-dialog-container #window-container #closing-div button:hover{
+	background:red;
+	
+}
+
+#my-dialog-container #window-container #form-container{
+	padding:30px;
+}
+#opener{
+	margin-top:25px;
+	border-radius:0px;
+}
+button.btn-danger, button.btn-success, button.btn-warning, button.btn-primary, button.btn-default,
+input.btn-danger, input.btn-success, input.btn-warning, input.btn-primary{
+	border-radius:0px;
+}
+#passenger-add-form{
+	border-right:1px #d3d7cf solid;
+	padding-right:150px;
+}
+#vol-info-in-reservation-page{
+	padding-left:70px;
+}
+#table-total,.table-total{
+	maring-top:30px;
+	margin-bottom:30px;
+	color: #959595;
+	font-style:italic;
+}
+
+#list-clients-blocked{
+	margin-top:90px;
+	margin-bottom:30px;
+}
+@media screen and (max-width: 1000px) {
+	nav.navbar-default .navbar-brand  img{
+	display:inline-block;
+	width:100px;
+	height:34px;
+	margin-left:10px;
+	
+  }
+}
+@media screen and (min-width: 1000px) {
+  nav.navbar-default{
+	height:100px;
+	background-color:rgba(250,  250 ,250);
+	border-color: white;
+	box-shadow: 3px 3px 10px #d3d7cf;
+  }
+  nav.navbar-default .navbar-brand  img{
+	display:inline-block;
+	width:200px;
+	height:70px;
+	margin-left:100px;
+	
+  }
+  nav.navbar-default .navbar-nav li a{
+	color: #888a85;
+	font-weight:bold;
+	margin-top:30px;
+	font-size:1.1em;
+	
+  }
+  nav.navbar-default .navbar-nav li a:hover{
+      background-color:rgba(250,  250 ,250);
+      color:red;
+  }
+  nav.navbar-default .navbar-nav li:hover{
+      background-color:rgba(250,  250 ,250);
+  }
+  nav.navbar-default .navbar-nav li.dropdown ul.dropdown-menu li a:hover{
+	background-color:rgba(15,15,15,0.1);
+	color:#a40000;
+	
+}
+  
+}
